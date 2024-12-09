@@ -15,7 +15,7 @@ caproverOneClickApp:
     variables:
         - id: $$cap_jsreport_version
           label: version
-          defaultValue: 2.4.0-full
+          defaultValue: 4.6.0-full
           description: Check out their Docker page for the valid tags https://hub.docker.com/r/jsreport/jsreport/tags
           validRegex: /^([^\s^\/])+$/
         - id: $$cap_jsreport_adminusername
